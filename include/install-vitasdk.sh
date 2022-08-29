@@ -1,7 +1,7 @@
 #!/bin/bash
 
 get_download_link () {
-  wget -qO- https://github.com/vitasdk/vita-headers/raw/master/.travis.d/last_built_toolchain.py | python - $@
+  wget -qO- https://github.com/vitasdk-soft/vita-headers/raw/master/.travis.d/last_built_toolchain.py | python - $@
 }
 
 install_vitasdk () {
